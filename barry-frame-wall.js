@@ -533,14 +533,14 @@
     .practical .name {
       margin: 0 0 0.15rem;
       font-weight: 700;
-      font-size: 0.98rem;
+      font-size: clamp(0.98rem, 0.95vw, 1.6rem);
       letter-spacing: 0.06em;
       text-transform: uppercase;
     }
 
     .practical .line {
       margin: 0;
-      font-size: 0.84rem;
+      font-size: clamp(0.84rem, 0.8vw, 1.35rem);
       line-height: 1.45;
       color: rgba(244,241,234,0.88);
       font-weight: 500;
