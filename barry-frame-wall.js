@@ -892,10 +892,10 @@
 
     @media (max-width: 420px) {
       .practical {
-        max-width: min(54vw, 204px);
+        max-width: min(62vw, 236px);
         overflow: visible;
       }
-      .practical .line { font-size: 0.62rem; }
+      .practical .line { font-size: 0.8rem; line-height: 1.4; }
       .email-card a { font-size: 0.94em; }
       .compose {
         padding-top: max(8.1rem, calc(env(safe-area-inset-top, 0px) + 6.7rem));
