@@ -812,8 +812,8 @@
       .practical {
         max-width: min(32vw, 200px);
       }
-      .practical .name { font-size: 0.88rem; }
-      .practical .line { font-size: 0.76rem; line-height: 1.4; }
+      .practical .name { font-size: 0.95rem; }
+      .practical .line { font-size: 0.85rem; line-height: 1.45; }
       .tool-btn {
         width: 3rem;
         height: 3rem;
@@ -842,8 +842,8 @@
         max-width: min(50vw, 196px);
         overflow: visible;
       }
-      .practical .name { font-size: 0.74rem; }
-      .practical .line { font-size: 0.66rem; line-height: 1.32; }
+      .practical .name { font-size: 0.9rem; }
+      .practical .line { font-size: 0.82rem; line-height: 1.4; }
       .practical .hours {
         margin-top: 0.35rem;
         padding-top: 0.35rem;
