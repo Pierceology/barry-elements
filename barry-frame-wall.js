@@ -599,7 +599,7 @@
 
     .email-card .role {
       margin: 0;
-      font-size: 0.68em;
+      font-size: clamp(0.7rem, 0.58vw, 1rem);
       letter-spacing: 0.14em;
       text-transform: uppercase;
       font-weight: 600;
@@ -608,6 +608,7 @@
 
     .email-card a {
       margin: 0;
+      font-size: clamp(0.92rem, 0.84vw, 1.4rem);
       color: inherit;
       text-decoration: none;
       white-space: nowrap;
@@ -849,8 +850,8 @@
         padding-top: 0.35rem;
       }
       .email-swap { min-height: 2.55em; }
-      .email-card .role { font-size: 0.64em; }
-      .email-card a { font-size: 0.98em; }
+      .email-card .role { font-size: 0.72rem; }
+      .email-card a { font-size: 0.92rem; }
       .meta {
         min-height: 3.6em;
         max-width: min(88vw, 320px);
@@ -896,7 +897,7 @@
         overflow: visible;
       }
       .practical .line { font-size: 0.8rem; line-height: 1.4; }
-      .email-card a { font-size: 0.94em; }
+      .email-card a { font-size: 0.9rem; }
       .compose {
         padding-top: max(8.1rem, calc(env(safe-area-inset-top, 0px) + 6.7rem));
       }
